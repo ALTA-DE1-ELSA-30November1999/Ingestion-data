@@ -1,0 +1,13 @@
+TASK DAY 3
+
+1) Ingest data from local file json to Postgresql with Airbyte.
+	a. Buat koneksi di DBeaver ke Postgresql dan Citus
+	b. Pertama-tama, tentukan sumber baru dari File (CSV, JSON, Excel, Feather, Parket). Kemudian uji dan simpan.
+	c. Setelah itu, buat destination dari JSON. Kemudian uji dan simpan.
+	d. Kemudian, buat connection untuk ke postgres. Berikut adalah setup untuk connection. Dalam konfigurasi pengaturan koneksi atur frekuensinya ke Manual. Pilihannya bisa dijadwalkan oleh Cron, Setiap 1, 2, 3, 6 hingga 24 jam.
+    atur jenis penyerapan yang akan overwrite atau append.
+	e. Kemudian mulailah menyinkronkan aliran data dari sumber ke tujuan dengan sync now. Setelah berhasil, maka akan muncul sync succeeeded.
+	f. Lalu, cek postgres untuk megtahui data sudah tersinkron.
+	g. Tampilkan data dengan perintah select
+
+2) Count the number of rows ingested.

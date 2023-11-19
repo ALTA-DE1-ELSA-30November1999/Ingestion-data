@@ -1,0 +1,6 @@
+TASK DAY 1
+
+1) We have already learned how to create DataFrame from files here. Now, we are going to create a DataFrame from a larger csv file on our datasets.
+2) Rename all the columns with snake_case format.
+3) Select only 10 top of highest number of passenger_count, show only columns vendor_id, passenger_count, trip_distance, payment_type, fare_amount, extra, mta_tax, tip_amount, tolls_amount, improvement_surcharge, total_amount, congestion_surcharge from the DataFrame.
+4) [Extra] Cast the data type to the appropriate value.

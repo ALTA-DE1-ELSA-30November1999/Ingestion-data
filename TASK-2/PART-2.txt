@@ -1,0 +1,8 @@
+TASK DAY 2
+
+1) We are going to create a DataFrame from a parquet file on our datasets.
+2) Load the parquet file to a DataFrame with fastparquet library.
+3) Clean the Yellow Trip dataset.
+4) Define the data type schema when using to_sql method.
+5) Ingest the Yellow Trip dataset to PostgreSQL
+6) Count how many rows are ingested
